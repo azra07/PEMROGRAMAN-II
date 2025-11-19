@@ -32,6 +32,5 @@ public class Controller {
         tableView.getItems().add(new Mahasiswa(9, "2410817220023", "Clarissa Dhea Allisya"));
         tableView.getItems().add(new Mahasiswa(10, "2410817320015", "Nazwa Amanda"));
 
-
     }
 }
