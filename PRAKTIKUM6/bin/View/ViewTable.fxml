@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/25" fx:controller="Controller.Controller">
+   <center>
+      <TableView fx:id="tableView" prefHeight="314.0" prefWidth="332.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="nimColumn" prefWidth="167.20000612735748" text="NIM" />
+          <TableColumn fx:id="namaColumn" prefWidth="163.19998168945312" text="Nama" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>
